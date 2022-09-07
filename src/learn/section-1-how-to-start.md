@@ -90,6 +90,8 @@ jOOQ 提供了 Maven 插件 `jooq-codegen-maven`，通过配置可以进行代�
                     <target>
                         <packageName>com.diamondfsd.jooq.learn.codegen</packageName>
                         <directory>/src/main/java</directory>
+<!--我之前就是用的上面这个的配置,然后一直提示我某个文件不存在,我修改为下面这个地址后就生成成功了..                        -->
+                        <directory>src/main/java</directory>
                     </target>
                 </generator>
             </configuration>
